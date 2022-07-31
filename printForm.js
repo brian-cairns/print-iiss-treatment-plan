@@ -20,7 +20,7 @@ for (let i = 1; i < 5; i++) {
 //fetch data
 const url = 'https://pffm.azurewebsites.net/getForms'
 const query = {
-    form: 'familyTrainingMeeting',
+    form: 'IISSTreatmentPlan',
     itemId: id 
 }
 const header = {
