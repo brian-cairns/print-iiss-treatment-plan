@@ -17,13 +17,6 @@ for (let i = 1; i < 5; i++) {
     }
 }
 
-for (let i = 1; i = 6; i++) {
-    document.getElementById(`date${i}`).style.display = 'none'
-    document.getElementById(`time${i}`).style.display = 'none'
-    document.getElementById(`total${i}`).style.display = 'none'
-    document.getElementById(`services${i}`).style.display = 'none'
-}
-
 //fetch data
 const url = 'https://pffm.azurewebsites.net/getForms'
 const query = {
